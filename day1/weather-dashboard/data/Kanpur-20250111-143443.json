@@ -1,0 +1,45 @@
+{
+    "coord": {
+        "lon": 80.35,
+        "lat": 26.4667
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 73.78,
+        "feels_like": 72.12,
+        "temp_min": 73.78,
+        "temp_max": 73.78,
+        "pressure": 1016,
+        "humidity": 27,
+        "sea_level": 1016,
+        "grnd_level": 1001
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 8.84,
+        "deg": 114,
+        "gust": 9.75
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1736586123,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1736558888,
+        "sunset": 1736597061
+    },
+    "timezone": 19800,
+    "id": 1267995,
+    "name": "Kanpur",
+    "cod": 200,
+    "timestamp": "20250111-143443"
+}

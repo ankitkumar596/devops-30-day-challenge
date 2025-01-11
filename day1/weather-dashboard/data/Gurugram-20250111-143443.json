@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 77.0299,
+        "lat": 28.4646
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 59.04,
+        "feels_like": 58.5,
+        "temp_min": 59.04,
+        "temp_max": 59.04,
+        "pressure": 1017,
+        "humidity": 82,
+        "sea_level": 1017,
+        "grnd_level": 989
+    },
+    "visibility": 1300,
+    "wind": {
+        "speed": 5.75,
+        "deg": 240
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1736586283,
+    "sys": {
+        "type": 1,
+        "id": 9165,
+        "country": "IN",
+        "sunrise": 1736559929,
+        "sunset": 1736597614
+    },
+    "timezone": 19800,
+    "id": 1273294,
+    "name": "Gurugram",
+    "cod": 200,
+    "timestamp": "20250111-143443"
+}
