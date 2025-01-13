@@ -1,7 +1,5 @@
 # Game Day Notification Solution - AWS Lambda, SNS, & EventBridge
 
-![Game Day Notification](./images/banner.png)
-
 ## Overview
 This project demonstrates a notification system for game updates using AWS services like Lambda, SNS, and EventBridge. The solution fetches game data via an API, processes it in AWS Lambda, and sends real-time notifications through SNS. Scheduled tasks are automated with EventBridge.
 
@@ -26,7 +24,8 @@ Example Topic ARN:
 arn:aws:sns:ap-south-1:123456789012:game-day-sns-topic
 ```
 
-![SNS Configuration](home/ubuntu/devops-30-day-challenge/day2/images/sns_config.png)
+![SNS Configuration](./images/sns_config.png)
+![SNS Configuration](./images/subscribe_sns_topic.png)
 
 ### 2. Configure IAM Policies and Roles
 #### Create Policy
@@ -77,21 +76,7 @@ Create an IAM role named `game-day-role` with the following:
 ## Outcome
 When the Lambda function is triggered, it fetches the latest game updates and sends notifications via SNS to all subscribed users.
 
-## Folder Structure
-```
-GameDayNotification/
-├── README.md
-├── images/
-│   ├── architecture.png
-│   ├── sns_config.png
-│   ├── iam_role.png
-│   ├── api_key.png
-│   ├── lambda_config.png
-│   ├── eventbridge_rule.png
-├── lambda_function.py
-```
+
 
 ## Conclusion
 This project highlights the power of AWS services to build scalable and automated notification systems. Feel free to explore and extend this implementation for other use cases.
-
-For any questions or feedback, connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
